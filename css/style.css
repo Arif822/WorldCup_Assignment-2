@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #080000;
+    border-radius: 20px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.left-h{
+    padding: 10px;
+    margin-left: 20px;
+}
+.left-h h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(157, 18, 18);
+}
+.left-h p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: rgb(243, 161, 161);
+}
+.left-h button{
+    padding: 15px 22px;
+    margin-top: 5px;
+    background-color: #4a4632;
+    border-radius: 15px;
+    color: rgb(163, 209, 228);
+    border-color: black;
+    background-image: linear-gradient(45deg, rgb(213, 27, 27) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background .6s ease-in-out;
+    cursor: pointer;
+}
+.left-h button:hover{
+    background-position: 0;
+}
+.right-h{
+    padding: 10px;
+}
+.right-h img{
+    width: 30rem;
+    display: block;
+    margin: 0 auto;
+}
+
+#blog, #upcomming, #allgroups{
+    width: 90%;
+    margin: 20px auto;
+}
+.blog{
+    display: flex;
+    
+}
+.blog-nav{
+    width: 20%;
+    background-color: #161616;
+    height: fit-content;
+}
+.blog-nav li{
+    list-style: none;
+}
+.blog-nav a{
+    display: block;
+    border: 1px solid rgb(137, 252, 252);
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    transition: .5s ease;
+    border-radius: 15px;
+}
+
+.blog-nav a:hover{
+    color: white;
+    background-color: #DD0000;
+}
+
+
+.blog-body{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+}
+.blog-content{
+    padding: 15px 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.blog-content img{
+    width: 290px;
+    height: 162px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+.blog-content button{
+    cursor: pointer;
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid #DD0000;
+    border-radius: 10px;
+}
+.blog-content h3{
+    font-size: 18px;
+    margin: 5px 1px;
+}
+.blog-time{
+    margin: 5px 2px;
+}
+.viewall-btn{
+    padding: 15px 30px;
+    margin-top: 5px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    border-color: black;
+    background-image: linear-gradient(45deg, rgb(106 19 19) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background .6s ease-in-out;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    display: none;
+}
+.viewall-btn:hover{
+    background-position: 0;
+}
+
+.upcomming-content{
+    padding: 15px 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;    
+}
+.upcomming-content h1{
+    text-align: center;
+}
+.upcomming-content p{
+    text-align: center;
+}
+
+.country-vs-country{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 15px 0px;
+}
+.country-vs-country h1{
+    text-align: center;
+}
+
+.blog-content h1{
+    text-align: center;
+}
+.details-btn{
+    display: block;
+    justify-content: center;
+}
+.details-btn{
+    padding: 10px 15px;
+    border: 1px solid red;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.details-btn:hover{
+    color: white;
+    background-color: #DD0000;
+}
+
+
+footer{
+    background-color: #0b0b0b;
+    background-color: ;
+}
+.footer{
+    width: 90%;
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+.footer h1{
+    color: white;
+    margin: 15px 0px;
+    text-align: center;
+}
+.f-links{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.f-links a{
+    padding: 10px;
+    color: #B6B6B6;
+    text-decoration: none;
+}
+.social-link{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-link a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
